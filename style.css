@@ -9,6 +9,10 @@ body {
     padding: 20px;
 }
 
+.pizza_menu {
+    display: flex;
+}
+
 .menu_option, #contact_us {
     padding: 5px 20px 20px 20px;
     margin: 10px;
@@ -16,6 +20,11 @@ body {
 
 img {
     height: auto;
+    float: right;
+}
+
+p {
+    width: spa;
 }
 
 #medium_pizza {
@@ -46,8 +55,8 @@ img {
     background-color: #B2BCAA;
 }
 
-@media (max-width: 800px) {
-    #large_pizza {
-        background-color: pink;
+@media (max-width: 960px) {
+    .pizza_menu{
+        flex-direction: column;
     }
 }
