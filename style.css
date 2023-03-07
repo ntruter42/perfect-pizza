@@ -1,0 +1,22 @@
+/* #c9cebd, #b2bcaa, #838e83, #6c6061, #64403e */
+
+body {
+    background-color: #C9CEBD;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+
+.medium_pizza {
+    background-color: #64403E;
+}
+
+.large_pizza {
+    background-color: #6C6061;
+}
+
+.small_pizza {
+    background-color: #838E83;
+}
+
+.contact_us {
+    background-color: #B2BCAA;
+}
