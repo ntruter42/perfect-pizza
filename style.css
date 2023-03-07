@@ -5,18 +5,49 @@ body {
     font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
 }
 
-.medium_pizza {
+#title {
+    padding: 20px;
+}
+
+.menu_option, #contact_us {
+    padding: 5px 20px 20px 20px;
+    margin: 10px;
+}
+
+img {
+    height: auto;
+}
+
+#medium_pizza {
     background-color: #64403E;
 }
 
-.large_pizza {
+#medium_pizza img {
+    width: 15vw;
+}
+
+#large_pizza {
     background-color: #6C6061;
 }
 
-.small_pizza {
+#large_pizza img {
+    width: 20vw;
+}
+
+#small_pizza {
     background-color: #838E83;
 }
 
-.contact_us {
+#small_pizza img {
+    width: 10vw;
+}
+
+#contact_us {
     background-color: #B2BCAA;
+}
+
+@media (max-width: 800px) {
+    #large_pizza {
+        background-color: pink;
+    }
 }
