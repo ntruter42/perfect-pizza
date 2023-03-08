@@ -7,13 +7,16 @@ body {
 
 #title {
     padding: 20px;
+    text-align:center;
+    font-size: 2.5em;
 }
 
 .pizza_menu {
     display: flex;
+    flex-direction: row;
 }
 
-.menu_option, #contact_us {
+.menu_option, #contact {
     padding: 5px 20px 20px 20px;
     margin: 10px;
 }
@@ -24,11 +27,12 @@ img {
 }
 
 p {
-    width: spa;
+    width: fit-content;
 }
 
 #medium_pizza {
     background-color: #64403E;
+    border-radius: 40px 10px 10px 10px;
 }
 
 #medium_pizza img {
@@ -37,6 +41,7 @@ p {
 
 #large_pizza {
     background-color: #6C6061;
+    border-radius: 10px 10px 10px 10px;
 }
 
 #large_pizza img {
@@ -45,18 +50,29 @@ p {
 
 #small_pizza {
     background-color: #838E83;
+    border-radius: 10px 40px 10px 10px;
 }
 
 #small_pizza img {
     width: 10vw;
 }
 
-#contact_us {
+#contact {
     background-color: #B2BCAA;
+    border-radius: 10px 10px 40px 40px;
+    border: 2px solid #A2AC9A;
 }
 
 @media (max-width: 960px) {
     .pizza_menu{
         flex-direction: column;
+    }
+    
+    .menu_option {
+        border-radius: 10px 10px 10px 10px !important;
+    }
+
+    #medium_pizza {
+        border-radius: 40px 40px 10px 10px !important;
     }
 }
